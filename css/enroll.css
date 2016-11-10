@@ -1,0 +1,198 @@
+body {  
+  
+  position: relative;
+
+
+  
+  
+}  
+#zhuce{
+	background: url(../images/sa2.jpg) no-repeat center;  
+  background-size:cover;  
+	width: 100%;
+	height: auto;
+	min-height: 800px;
+	position: relative;
+	
+}
+#center_a{
+	width: 100%;
+	height: auto;
+	min-height: 800px;
+	max-height: 800px;
+	min-width: 1024px;
+	}
+.out{
+	width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+	min-width: 1024px;
+	padding-top: 20px;
+	padding-left: 70px;
+
+	
+	
+
+	
+}
+.xd{
+	width: 202px;
+	height: 48px;
+
+	
+}
+#bottom{
+	position: absolute;
+	padding-top: 30px;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	
+	min-height: 204px;
+
+
+}
+.uf li{
+	max-width: 200px;
+	height: auto;
+	min-height: 160px;
+	float: left;
+	padding-top: 20px;
+	margin-left: 120px;
+
+
+}
+#dali{
+	height: 120px;
+	width: 340px;
+	padding-top: 20px;
+	
+	
+}
+#dali li{
+	width: 338px;
+	height: 40px;
+
+
+	
+	
+	margin:0 auto;
+}
+.bz3{
+	padding-left: 10px;
+}
+.oi span{
+	color: #888888;
+
+}
+.oi span:hover{
+	color: #2598f9
+}
+.qieos{
+	background-color: #2598f9;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+
+
+}
+.qieos:hover{
+	background:rgba(0,0,0,0.5);
+}
+
+.pad{
+	height: 280px;
+	box-shadow: 3px 7px 20px #888888;
+	position: relative;
+	top:1px;
+}
+input:-webkit-autofill {
+ -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.box_ss{
+	width: 396px;
+	height: 436px;
+	
+	margin:35px auto;
+}
+.dwdw{
+	min-width: 396px;
+	width: auto;
+	height: 37px;
+	border-bottom:1px solid #ccc;
+	
+
+}
+.submitBtn{
+width: 295px;border-radius: 5px;background-color: #2598f9;height: 36px;color: #fff;
+
+}
+.submitBtn:hover{
+	cursor: pointer;
+	background:rgba(0,0,0,0.5);
+}
+.koss{width: 295px;border-radius: 5px;background-color: #2598f9;height: 36px;color: #fff;}
+.koss:hover{
+	cursor: pointer;
+	background:rgba(0,0,0,0.5);
+}
+.list{
+	position: relative;
+}
+
+.losthot{
+	width: 295px;border-radius: 5px;background-color: #2598f9;height: 36px;color: #fff;
+}
+.losthot:hover{
+	cursor: pointer;
+	background:rgba(0,0,0,0.5);
+}
+.bigo{
+	color: #2598f9;font-size:14px;cursor: pointer;
+}
+.bigo:hover{
+	color: #888888;
+}
+.bigo2{
+	color: #2598f9;font-size:14px;cursor: pointer;
+}
+.bigo2:hover{
+	color: #888888;
+}
+#piog{
+	
+	width: 386px;
+	height: 205px;
+	overflow: hidden;
+
+}
+.hzi{
+	width: 386px;
+	height: 1000px;
+
+}
+.one {
+	width: 386px;
+	height: 205px;
+	float: left;
+
+}
+.chakan{
+	width: 295px;
+	height: 36px;
+	background-color: #2598f9;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+.iow{
+	float: left;
+	margin-top: 20px;
+}

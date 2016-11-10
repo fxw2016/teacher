@@ -1,0 +1,20 @@
+#room{
+	max-width: 830px;
+	min-height: 280px;
+	height: auto;
+	padding-top: 50px;
+	margin:0 auto;
+}
+.qqc{
+	font-size: 16px;
+	color: #333;
+	display: none
+
+}
+
+#far p{
+  font-size: 12px;
+  color: #999;
+}
+
+

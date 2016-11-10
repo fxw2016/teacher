@@ -1,0 +1,267 @@
+textarea{
+	resize:none;
+	}
+
+.ywq22{
+	
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    color:#888888;
+}
+.wdq_yero2{
+	min-width: 230px;
+	min-height: 55px;
+	float: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	
+	width: auto;
+	height: auto;
+
+}
+.wq_gg2{
+	width: auto;
+	height: auto;
+	border:1px solid #dfdfdf;
+	min-height: 300px;
+	min-width: 600px;
+	position: relative;
+	float: left;
+	padding-bottom: 30px;
+
+}
+.wq_gg2:hover{
+	cursor: pointer;
+	box-shadow:  1px 1px 30px 20px #bdd6eb;
+}
+.rrr{
+	width: auto;
+	height: auto;
+
+	position: absolute;
+
+}
+.auoio{
+	width: auto;
+	height: auto;
+	min-height: 50px;
+	min-width: 200px;
+	float: left;
+	margin-left: 20px;
+	
+}
+.bensix{
+	width: 730px;
+    height: 60px;
+    
+   
+}
+.asd_six{
+	width: 90px;
+	float: left;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 15px;
+	background:url(../images/btn_return_nor.png)0 0  no-repeat;
+}
+.asd_six:hover{
+	cursor: pointer;
+	background:url(../images/btn_return_pre.png)0 0  no-repeat;
+}
+.sdw_xs{
+	width: 175px;
+	height: 20px;
+	
+	float: left;
+	margin-top: 14px;
+	margin-left: 20px;
+}
+.sdw_xs p{
+float: left;
+font-size: 16px;
+color: #888888;
+line-height: 20px;
+cursor: pointer;
+
+}
+.sdw_xs p:hover{
+	color: #2598f9;
+}
+.wqe_rr{
+	background:url(../images/bg_answering-questions.png) 0 0 no-repeat;
+}
+.eqfom{
+	margin-top: 60px;
+	width: 730px;
+	height: 340px;
+	padding-top: 30px;
+	float: left;
+	border:1px solid #dfdfdf;
+
+}
+.eqfom:hover{
+	box-shadow:  1px 1px 20px 5px #374e62;
+}
+.eqfom .cenet{
+	width: 680px;
+	height: 190px;
+	margin:0 auto;
+	
+}
+.teoi{
+	margin-top: 10px;
+	width: 680px;
+	
+	
+	
+	border:1px solid #bdd6eb;
+	color: #333;
+	height:160px; 
+	padding:4px 0px; 
+	font-size:14px; 
+}
+.dw_wang{
+	width: 660px;
+	height: 35px;
+	margin-left: 30px;
+}
+.butooml2 p{
+	margin-left: 10px;
+}
+.butooml2 .shangimg{
+	width: 78px;
+	height: 34px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	background-color: #51bf87;
+	float: right;
+
+
+}
+.butooml2 .shangimg:hover{
+	background:rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+.butooml2 .shangvio{
+	width: 78px;
+	height: 34px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	background-color: #51bf87;
+	float: right;
+
+}
+.butooml2 .shangvio:hover{
+	background:rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+
+
+.butooml2 .tijiao{
+	width: 78px;
+	height: 34px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	background-color: #2598f9;
+	float: right;
+
+}
+.butooml2 .tijiao:hover{
+	background:rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+.auoio audio{
+	width: 200px;
+	height: 50px;
+}
+.vip_wva{
+	min-width: 730px;
+    min-height: 775px;
+    float: right;
+    height: auto;
+    background-color: #fff;
+    position: relative;
+    max-width: 730px;
+}
+ #vip{
+	height: auto;
+	min-height: 1000px;
+}
+.luinwei{
+	width: 260px;
+	height: 73px;
+
+	
+	position: absolute;
+	bottom: 50px;
+} 
+.input-file {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #ddd;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.input-file:hover{
+	background: rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+.input-file input {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
+    .dsds img{
+    	width: 80px;
+    	height: 70px;
+    }
+    #dswwwv{
+    	width: 78px;
+	height: 34px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	background-color: #51bf87;
+	float: right;
+
+    }
+     #dswwwv:hover{
+     	background: rgba(0,0,0,0.4);
+     }
+.shangc{
+	width: 260px;
+	height: 107px;
+	
+	position: absolute;
+	bottom: -34px;
+	left: 100px;
+}
+#gdger{
+	width: 78px;
+	height: 34px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	background-color: #51bf87;
+	float: right;
+
+}
+ #gdger:hover{
+     	background: rgba(0,0,0,0.4);
+     }

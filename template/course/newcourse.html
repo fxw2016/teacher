@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      课程上传
+    </title>
+    <link rel="stylesheet" href="../../bootstrap.dolang/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/course.css">
+    <link rel="stylesheet" href="../../css/demo-page.css">
+    <link rel="stylesheet" href="../../css/hover.css">
+    <link rel="stylesheet" href="../../css/newcourse.css">
+    
+    
+     
+   
+  </head>
+  
+  <body>
+    <!-- 导航 -->
+    <nav class="navbar navbar-default navbar-fixed-top  viodd ">
+      <div class=" container viowidth">
+        <div class="navbar-header vbi vopww">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">
+              Toggle navigation
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+          </button>
+          <a class="navbar-brand " href="#">
+            <img src="../../images/5345.png" style="margin-top: -5px;">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse vilind" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav vipsds ">
+            <li class="h4 ">
+              <a href="../Settings/index.html">
+                首页
+              </a>
+            </li>
+            <li class="h4">
+              <a href="../course/course.html" class="wdq">
+                课程
+              </a>
+            </li>
+            <li class="h4">
+              <a href="../Live/broadcast.html">
+                直播
+              </a>
+            </li>
+            <li class="h4">
+              <a href="../DMM/DMM.html">
+                DMM课件
+              </a>
+            </li>
+            <li class="h4">
+              <a href="../Mentoring/Mentoring.html">
+                答疑
+              </a>
+            </li>
+            <li class="h4">
+              <a href="../orderform/order.html">
+                订单
+              </a>
+            </li>
+        </div>
+        <!-- /.navbar-collapse -->
+        <div class="navbar-header vbi ">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="" aria-expanded="false">
+            <span class="glyphicon glyphicon-user">
+            </span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse vierr" id="bs-example-navbar-collapse-1">
+         
+          <div class="nav navbar-nav wrrt ">
+          <a href="../Settings/ZOE.html">
+            <div class="vipclass">
+              <img src="../../images/f16e2ddda3cc7cd912b878833b01213fb90e9110.jpg" style="width: 36px;
+              height: 36px;border-radius: 50px;">
+            </div>
+            <p class="vipgd">
+              wangchongVIP@
+            </p>
+            <p style="float: left;line-height: 36px;line-height: 42px;">
+              <img src="../../images/33.png" style="cursor: pointer;">
+            </p>
+          </div>
+        </div>
+        </a>
+        <!-- /.navbar-collapse -->
+        </li>
+        </ul>
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!-- 导航结束 -->
+
+
+
+      <!-- 新建课程 -->
+
+       <div id="out" style="margin:0 auto;padding-bottom: 20px;margin-bottom: 0px;">
+         <div class="bubu">
+            <div class="kec">
+              <p>当前位置：</p>
+              <p style="color: #2598f9;">课程></p>
+              <p>发布课程</p>
+            </div>
+           
+         </div>
+         <div class="anf">
+          <div class="siguy">
+            <div class="anf_si tes">
+              <div class="col" >1</div>
+              <p class="clo" >填写基本信息</p>
+             
+            </div>
+            <div class="anf_si" style="margin-left: 72px;">
+              <div class="col" >2</div>
+              <p class="clo" >上传视频</p>
+             
+            </div>
+            <div class="anf_si" style="margin-left: 72px;">
+              <div class="col" >3</div>
+              <p class="clo" >创建教室</p>
+             
+            </div>
+            <div class="anf_si" style="margin-left: 72px;">
+              <div class="col" >3</div>
+              <p class="clo" >完成</p>
+             
+            </div>
+             <div class="xian"></div>
+
+            
+          </div>
+
+           
+         </div>
+
+
+         <div class="wrq">
+           <div class="gao" style="padding-left: 45px;">
+           <p style="color: #333;font-size: 14px;line-height: 20px;"><a style="color: red;">*</a>上传封皮</p>
+             
+           </div>
+            
+              <div class="dwd" style="min-width: 380px;height: 150px;margin-left: 50px;margin-top: 20px;">   
+              <div class="bz">        
+              <div id="imgPreview" class="dsds" > 
+               
+              </div> 
+              <span class="input-file">
+              浏览...
+              
+                <input type="file" onchange='PreviewImage(this)' / >
+               
+              </span>
+
+                </div>
+
+
+                <div class="bz" style="margin-left: 80px;">        
+              <div id="imgPreview" class="dsds" > 
+                  
+              </div> 
+                <span class="input-file">
+              浏览...
+              
+                <input type="file" onchange='PreviewImage(this)' / >
+               
+              </span>
+                </div>
+
+
+
+          
+         </div>
+        
+          <p style="width: 500px;color: #888888;padding-top: 20px;padding-left: 50px;font-size: 12px;">
+            给课程添加封皮，一张横版封皮，一张竖版封皮。这样课程看起来更有魅力哦！
+            封面图片建议尺寸：16:9  大小限制为500KB以下
+          </p>
+          
+
+        
+
+         </div>
+         <div id="goal">
+          <ul class="we_fd" style="width: 645px;height: 150px;">
+              <li >
+               <div style="float: left;">
+                <span style="color:red;">*</span>
+                <span style="font-size: 14px;color:#333;">课程题目:</span>
+                </div>
+                <input type="text" class="input_clor">
+                <!-- <p style="float: left;margin-left: 10px;font-size: 12px;color:red;line-height: 25px;opacity: 0;">课程题目不能为空!</p> -->
+              </li>
+             
+              <div class="vfv" style="width: 519px;height: 41px;margin-top: 20px;padding-right: 20px;float: left;">
+              <div style="float: left;min-width: 80px;">
+              <span style="color:red;">*</span>
+              <span style="font-size: 14px;color:#333;line-height: 30px;">直播分类:</span>
+              </div>
+              <div style="float: left;width: 406px;height: 22px;" class="fiwa">
+              <select >
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+              <select >
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+              <select >
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+              </div>
+              <li >
+               <div style="float: left;min-width: 70px;">
+                <span style="color:red;opacity: 0;">*</span>
+                <span style="color:red;opacity: 0;">s</span>
+                <span style="font-size: 14px;color:#333;">知识点:</span>
+                </div>
+                <input type="text" class="input_clor" ></br>
+                <p style="float: left;margin-left: 10px;font-size: 12px;color:#888888;line-height: 25px;margin-top: 5px;margin-left: 80px;">(课程涉及到的知识点)</p>
+              </li>
+
+              
+
+            </ul>
+
+           
+         </div>
+         <div class="tops" style="padding-left: 30px;">
+            <div style="height:auto;float: left;">
+             <div style="float: left;margin:16px 10px;">
+              <span style="color:red;">*</span>
+              <span style="font-size:14px;color:#333;">课程简介:</span>
+             </div>
+             <div style="float: left;">
+              <textarea  cols="30" rows="4"  style="width: 700px;height: 55px;" class="text_color"></textarea>
+             </div>
+            </div>
+            <div style="height:auto;float: left;">
+             <div style="float: left;margin:16px 10px;">
+              <span style="color:red;opacity: 0;">*</span>
+              <span style="font-size:14px;color:#333;">课程目标:</span>
+             </div>
+             <div style="float: left;">
+              <textarea  cols="30" rows="4"  style="width: 700px;height: 55px;" class="text_color"></textarea>
+             </div>
+            </div>
+            <div style="height:auto;float: left;">
+             <div style="float: left;margin:16px 10px;">
+              <span style="color:red;opacity: 0;">*</span>
+              <span style="font-size:14px;color:#333;">主要目标:</span>
+             </div>
+             <div style="float: left;">
+              <textarea  cols="30" rows="4"  style="width: 700px;height: 55px;" class="text_color"></textarea>
+             </div>
+            </div>
+            <div style="height:auto;float: left;">
+             <div style="float: left;margin:16px 10px;">
+              <span style="color:red;opacity: 0;">*</span>
+              <span style="font-size:14px;color:#333;">适合人群:</span>
+             </div>
+             <div style="float: left;">
+              <textarea  cols="30" rows="4"  style="width: 700px;height: 55px;" class="text_color"></textarea>
+             </div>
+            </div>
+             </div>
+             <div id="qieos" style="padding-left: 46px;">
+              <p style="font-size:14px;color:#333;line-height: 38px;float: left;">课程定价：</p>
+
+              <div style="float: left; ">
+              <a href="javascript:" class="hvr-curl-bottom-right ">18元</a>
+              <a href="javascript:" class="hvr-curl-top-right ">25元</a>
+              <a href="javascript:" class="hvr-curl-bottom-right ">30元</a>
+              <a href="javascript:" class="hvr-curl-top-right ">40元</a>
+              <a href="javascript:" class="hvr-curl-bottom-right ">45元</a>
+              <a href="javascript:" class="hvr-curl-top-right ">50元</a>
+              <a href="javascript:" class="hvr-curl-bottom-right ">60元</a>
+              <a href="javascript:" class="hvr-curl-top-right ">65元</a>
+
+
+              </div>
+            
+               
+             </div>
+               <div class="xibu">
+                <a style="text-decoration: none;" href="Video.html"><div class="dw" ><p>下一步</p></div></a>
+              </div>
+
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 新建课程结束 -->
+   
+    </div>
+    </ul>
+    </div>
+    </div>
+    </div>
+
+    </div>
+   
+     <div id="far" style="width: 100%;height: 88px;background: #fff;float: left;margin-top: 20px;border-top:1px solid #ccc;padding-top: 20px;">
+      <div style="width: 307px;height: 38px;margin:0 auto;">
+        <p >
+          版权所有：北京天智通达信息技术有限公司
+        </p>
+        <p style="margin:0 auto;width: auto;">
+          copyright © 2015 京ICP备10209638-3号
+        </p>
+      </div>
+    </div>  
+   
+
+<a class="to-top" style="text-decoration:none">Top</a>
+  </body>
+  <script src="../../bootstrap.dolang/js/jquery-2.0.0.min.js">
+  </script>
+ <script src="../../bootstrap.dolang/js/bootstrap.min.js">
+ </script>
+  <script type="text/javascript" src="../../bootstrap.dolang/js/bootstrap-progressbar.js">
+  </script>
+   <script src="../../bootstrap.dolang/js/jquery.toTop.min.js">
+  </script>
+  <script type="text/javascript" src="../../js/echo.js">
+
+  </script>
+  
+
+</html>

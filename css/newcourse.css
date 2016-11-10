@@ -1,0 +1,295 @@
+body{
+		width: 100%;
+		max-width: 100%;
+	 font-family:"Microsoft YaHei";
+}
+textarea{
+	border:1px solid #e8e6e6;
+}
+.clo{
+	font-family:"Microsoft YaHei";
+	font-size: 14px;
+}
+body p{
+	font-family:"Microsoft YaHei";
+
+
+}
+
+
+body a{
+	text-decoration: none;
+
+
+}
+textarea{
+	resize:none;
+	}
+#out{
+	min-width: 1024px;
+	max-width: 1024px;
+	min-height: 1200px;
+	height: auto;
+	
+	background-color: #fff;
+	margin:0 auto;
+
+}
+.bubu{
+	max-width: 1024px;
+	min-width: 1024px;
+	min-height: 56px;
+	border-bottom:1px solid #ccc;
+	padding-left: 10px;
+
+}
+.kec{
+	width: 220px;
+	height: 56px;
+	float: left;
+	
+}
+.kec p{
+	float: left;
+	font-size: 12px;
+	line-height: 56px;
+	color: #ccc;
+}
+.anf{
+	max-width: 1024px;
+	min-width: 1024px;
+	min-height: 70px;
+	
+	position: relative;
+}
+.siguy{
+	width: 610px;
+	height: 60px;
+	margin:20px auto;
+	
+	
+
+	
+
+}
+.anf_si{
+	width: 98px;
+	height: 60px;
+	padding-top: 2px;
+	position: relative;
+	float: left;
+	z-index: 2000;
+	
+	
+
+}
+.anf_si .col{
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	background-color: #b3b3b3;
+	border-radius: 20px;
+	color: #fff;
+	margin:0 auto;
+}
+.anf_si .clo{
+	font-size: 12px;
+	color: #b3b3b3;
+	text-align: center;
+	line-height: 32px;
+}
+.tes .col{
+	background-color: #2598f9;
+}
+.tes .clo{
+	color: #2598f9;
+}
+.xian{
+	position: absolute;
+	width: 750px;
+	border:1px solid #ccc;
+	top:18px;
+	left: 137px;
+	z-index: 1;
+	margin:0 auto;
+	
+
+}
+.wrq{
+	min-width: 750px;
+	max-width: 750px;
+	min-height: 280px;
+	height: auto;
+	border-bottom:1px dashed  #d9d6d6;
+	margin:0 auto;
+}
+.gao{
+	height: 20px;
+	width: 750px;
+	padding-left: 10px;
+}
+.dsds{
+	width:152px; 
+	height:114px;
+	border:1px dashed #dcdada;
+	float: left;
+	margin-bottom: 10px;
+	background:url(../images/add.png) 0 0 no-repeat;
+	background-position: center;
+
+}
+.dsds img{
+	width: 150px;
+	height: 112px;
+
+}
+.bz{
+	width: 180px;
+	height: 150px;
+
+	
+	float: left;
+
+}
+.input-file {
+	display:inline-block;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	background:#ddd;
+	text-align:center;
+	overflow:hidden;
+	position:relative;
+}
+.input-file:hover {
+	background:#ccc;
+}
+.input-file input {
+	opacity:0;
+	filter:alpha(opacity=0);
+	font-size:100px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.viodd {
+	z-index: 5000000;
+}
+#goal{
+	min-width: 750px;
+	max-width: 750px;
+	min-height: 208px;
+	height: auto;
+	
+	margin:20px auto;
+	padding-top: 10px;
+	border-bottom: 1px dashed #d9d6d6;
+
+
+}
+.we_fd li{
+	list-style: none;
+	margin-top: 20px;
+
+	width: 100%;
+	min-width: 715px;
+	line-height: 30px;
+	float: left;
+}
+.input_clor{
+	width: 600px;height: 30px;float: left;margin-top: 1px;margin-left: 10px;
+	border-radius: 5px;
+}
+.text_color{
+	border:1px solid #e8e6e6;
+	border-radius: 5px;
+}
+.tops{
+	height:auto;min-width: 750px;
+    max-width: 750px;
+    min-height: 460px;
+    height: auto;
+    margin: 20px auto;
+    padding-top: 10px; 
+}
+#qieos{
+	min-width: 750px;
+	max-width: 750px;
+	min-height: 70px;
+	height: auto;
+	
+	margin:0 auto;
+	padding-left: 18px;
+}
+.xibu{
+	min-width: 750px;
+	max-width: 750px;
+	min-height: 70px;
+	height: auto;
+	padding-top: 5px;
+	margin:40px auto;
+	
+}
+.dw{
+	margin:20px auto;
+	width: 240px;
+	height: 34px;
+
+}
+.xibu p{
+	width: 240px;
+	height: 34px;
+	background-color: #2598f9;
+	text-align: center;
+	line-height: 34px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 5px;
+
+}
+.xibu p:hover{
+	cursor: pointer;
+	background:rgba(0,0,0,0.5);
+}
+.btn-default:hover{
+	color: #fff;
+	background-color: #2598f9;
+}
+.zoyo{
+	border:1px solid #2598f9;
+	color: #2598f9;
+}
+#qieos a{
+	width: 68px;
+	height: 26px;
+	text-decoration: none;
+	line-height: 2px;
+	text-align: center;
+	border-radius: 5px;
+	border:1px solid #e8e6e6;
+}
+#qieos .vips{
+	text-align: left;
+	color: #2598f9;
+
+}
+#qieos a:hover{
+	text-align: left;
+	color: #2598f9;
+	border-radius: 5px;
+
+}
+.yif p{
+	float: left;
+	padding-top: 10px;
+	
+}
+.fiwa select{
+	float:left;
+	min-width: 110px;
+	height: 30px;
+	
+	border:1px solid #dcdada;
+	border-radius: 5px;
+}

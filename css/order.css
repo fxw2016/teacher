@@ -1,0 +1,78 @@
+.order_a{
+	min-width: 720px;
+	height: 158px;
+	width: auto;	
+	margin: 0 auto;
+	position: relative;
+
+}
+
+
+.order_b{
+	min-width: 710px;
+	height: 32px;
+	border:1px solid #dfdfdf;
+	width: auto;
+}
+.ds_dw{
+	float: left;
+	font-size: 16px;
+	color: #333;
+	line-height: 32px;
+	padding-left: 10px;
+}
+#woihh{
+	width: 135px;
+	height: 15px;
+	float: right;
+
+}
+.ds_g{
+	width: auto;
+	padding-left: 10px;
+	float: left;
+	font-size: 14px;
+	color: #888888;
+	line-height: 18px;
+}
+.ds_wwf{
+	min-width: 710px;
+	height: 87px;
+	width: auto;
+	padding-left: 15px;
+	margin:20px auto;
+}
+.ds_wff{
+	width: 225px;
+	height: 87px;
+	float: left;
+	
+	position: relative;
+}
+.poans{
+	position: absolute;
+	width: 225px;
+	height: 24px;
+	bottom: 0px;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	line-height: 24px;
+	font-size: 14px;
+	color: #fff;
+}
+.ywo{
+	width: 200px;
+	height: 87px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+
+
+}
+.wdq_yero{
+	min-width: 225px;
+	height: 87px;
+	float: left;
+	width: auto;
+	
+}
